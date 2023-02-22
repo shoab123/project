@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rliable Auto Parts</title>
+    <style type="text/css">
+        .nav {
+            width: 220;
+            background-color: red;
+            border-color: rgb(66, 61, 61);
+            border-style: inherit;
+            border-radius: 5px;
+            overflow: auto;
+            animation-name: annn;
+            animation-duration: 15s;
+        }
+        @keyframes annn {
+            0% {background-color: red;}
+            30% {background-color: aliceblue;}
+            50%{background-color: yellow;}
+            75% {background-color: blue;}
+            100% {background-color: aqua;}
+        }
+        #logo {
+            margin: 0;
+            float: left;
+            border-radius: 5px;
+        }
+        #search {
+            height: 30px;
+            width: 900px;
+            margin-top: 14px;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        #div2 {
+            height: 40px;
+            background-color: rgb(207, 248, 207);
+        }
+        #div3 {
+            height: 600px;
+            width: 1505px;
+            text-align: center;
+            background-repeat: no-repeat;
+            animation-name: img1;
+            animation-duration: 25s;
+            background-image: url(op2.jpg);
+            padding-top: 50px;
+        }
+        @keyframes img1 {
+            15% {background-image: url(op2.jpg)}
+            30% { background-image: url(op.jpg)}
+        }
+           a{
+            text-decoration: none;
+             text-align: center;
+            color: aqua;
+            font-size: 25px;
+          }
+          .p4{
+            height: 40px;
+            gap: 10px;
+          }
+          p{
+            font-size: 30px;
+            color: rgba(87, 84, 84, 0.774);
+            text-align: center;
+          }
+          .d45{
+            display: inline;
+            float: center;
+          }
+          span{
+            font-size: 15px;
+            color: rgb(59, 56, 56);
+            
+          }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img id="logo" src="bike logo.jpg" alt="reliable logo" height="70" width="80">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+
+        <input id="search" type="text"
+            placeholder="&nbsp;&nbsp;&nbsp;&nbsp; search for all types bikes service & parts ">
+        <button>search 🔍</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="language" style="color:aquamarine; font-size: 20px;">Language</label>
+        <select name="language" id="language">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+    </div>
+    <div id="div2">
+        &nbsp;&nbsp; <label for="Bikes" style="color: black;">BIKES</label>
+        <select name="Bikes" id="Bikes"size="1" onchange="window.location.href=this.value;">
+            <option>Select</option>
+            <option value="https://www.heromotocorp.com">HERO</option>
+            <option value="https://www.honda2wheelersindia.com">HONDA</option>
+            <option value="https://www.tvsmotor.com">TVS</option>
+            <option value="https://www.yamaha-motor-india.com">YAMAHA</option>
+            <option value="https://www.royalenfield.com">ROYAL ENFIELD</option>
+            <option value="https://ktm.com">KTM</option>
+            <option value="https://www.bajajauto.com">BAJAJ</option>
+            <option value="https://www.suzukimotorcycle.co.in">SUZUKI</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="electric bikes" style="color: black;">ELECTRIC SCOTER</label>&nbsp;
+        <select name="electric bikes" id="ectr bk" size="1" onchange="window.location.href=this.value;">
+            <option>Select</option>
+            <option value="https://www.atherenergy.com">ATHER</option>
+            <option value="https://olaelectric.com">OLA</option>
+            <option value="https://heroelectric.in">HERO</option>
+            <option value="https://www.tvsmotor.com">TVS</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="BIKES REPAIR" style="color: black;">BIKES REPAIR</label>
+        <select name="BKRPR" id="BKRPR" size="1" onchange="window.location.href=this.value;">
+            <option>Select</option>
+            <option>Your location</option>
+            <option>Mobile Number</option>
+            <option>Bikes company & model</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="ABOUT" style="color: black;">ABOUT US</label>
+        <select name="about us" id="about us"size="1" onchange="window.location.href=this.value;">
+            <option>Select</option>
+            <option>CONTACT NUMBER</option>
+            <option> EMAIL ADDRESS</option>
+            <option>MECHANICS NUMBER</option>
+            <option>MORE</option>
+        </select>&nbsp;&nbsp;
+    </div>
+    <div id="div3">
+        <a href="reliable2.html">Create account</a>
+    </div>
+    <div id="div4">
+          <center><img src="1p.png" class="p4"></center>
+          <p>Bikes/Scoty</p>
+          <div class="d4">
+          <img src="2p.jpeg" width="350px">
+          <img src="3p.jpeg" width="350px">
+          <img src="4p.jpeg" width="350px">
+          <img src="5p.jpeg" width="370px">
+        </div>
+        <div class="d45">
+            <center><p>How We Work ?</p></center>
+            <center>
+            <img src="s1.png"width="100px">
+            <span>Select model & service</span>
+            <img src="s2.png" width="100px">
+            <span>Chose time slot & location</span>
+            <img src="s3.png" width="100px">
+            <span>Book appointment</span>
+        </center><br>
+        <br>
+        <center>
+            <img src="s4.png" width="100px">
+            <span>Our service team will call you</span>
+            <img src="s5.png"width="100px">
+            <span>Mechanic will visit at your location</span>
+            <img src="s6.png" width="100px">
+            <span>Pay after service</span>
+        </center>
+        </div>
+
+    </div>
+    
+        
+
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>r2</title>
+    <style>
+        #st {
+            display: flex;
+            width: 300px;
+            padding-left: 10px;
+        }
+        #div1 {
+            border: 3px solid rgb(138, 15, 226);
+            margin: auto;
+            background-color: rgb(8, 174, 240);
+            height:150px;
+        }
+        .logo{
+            float:right;
+            height: 150px;
+            width: 500px;
+        }
+        #div2{
+            /* background-image: url(op.jpg); */
+            animation-name:ss;
+            animation-duration: 15s;
+            height: 600px;
+        }
+        @keyframes ss{
+            25%{background-image:url(op.jpg);}
+            50%{background-image: url(img3.jpg);}
+            75%{background-image:url(img1.jpg);}
+            100%{background-image: url(img4.jfif);}
+        }
+        #sub:hover{
+            background-color: burlywood;
+            border-radius: 5px;
+        }
+      </style>
+
+
+</head>
+
+<body>
+    <div id="div1">
+        <img src="bike logo.jpg" class="logo">
+        Name:-<input id="st" placeholder="enter your name">
+        contact number:-<input id="st" placeholder="your mobile number">
+        Email:-<input id="st" placeholder="your email add">
+       <label for="d.o.b">D.O.B:-</label><input type="date">
+       <button type="submit" id="sub">Submit</button>
+    </div>
+    <div id="div2">
+        
+    </div>
+
+
+</body>
+
+</html>
